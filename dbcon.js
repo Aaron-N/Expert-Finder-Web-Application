@@ -1,4 +1,4 @@
-//DBCON file for hosted database on EECS server under PORTEJEF
+//DBCON file for hosted database on EECS server
 var mysql = require('mysql');
 var pool = mysql.createPool({
   connectionLimit : 10,
